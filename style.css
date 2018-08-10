@@ -1,0 +1,70 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #2C2416;
+    padding: 20px 10px;
+}
+
+.header a {
+    width: 100%;
+    margin: auto;
+    display: block;
+    color: #BAA378;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 48px;
+    border-radius: 4px;
+    font-family: 'Fjalla One', sans-serif;
+  }
+
+  .navigation {
+    overflow:hidden;
+    background-color:#C0A172;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .navigation li {
+    display: inline;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .navigation li a {
+      color: #2C2416;
+      text-decoration: none;
+      text-align: center;
+      padding: 8px 16px;
+      display: inline-block;
+  }
+
+  .navigation a:hover {
+      background-color: #2C2416;
+      color: #C0A172;
+  }
+
+  .mid {
+    overflow:hidden;
+    background-color:#C0A172;
+  }
+
+  .main-body {
+    overflow:hidden;
+  }
+
+  .footer {
+    overflow:hidden;
+  }
